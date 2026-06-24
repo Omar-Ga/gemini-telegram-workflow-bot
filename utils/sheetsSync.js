@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Path to the sheets.js script in the root .gemini directory
-const SHEET_SCRIPT = path.join(__dirname, '..', '..', '.gemini', 'SKILLS', 'google-sheets', 'scripts', 'sheets.js');
+const SHEET_SCRIPT = path.join(__dirname, '..', '.gemini', 'SKILLS', 'google-sheets', 'scripts', 'sheets.js');
 
 /**
  * Executes the sheets.js CLI script with the given command and arguments using spawn.

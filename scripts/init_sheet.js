@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Correct relative path from scripts/ to .gemini/SKILLS/...
-const SHEET_SCRIPT = path.join(__dirname, '..', '..', '.gemini', 'SKILLS', 'google-sheets', 'scripts', 'sheets.js');
+const SHEET_SCRIPT = path.join(__dirname, '..', '.gemini', 'SKILLS', 'google-sheets', 'scripts', 'sheets.js');
 
 const HEADERS = [
   'id', 

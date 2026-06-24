@@ -9,7 +9,7 @@ const execAsync = promisify(exec);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Path to the sheets.js script in the root .gemini directory
-const SHEET_SCRIPT = path.join(__dirname, '..', '..', '.gemini', 'SKILLS', 'google-sheets', 'scripts', 'sheets.js');
+const SHEET_SCRIPT = path.join(__dirname, '..', '.gemini', 'SKILLS', 'google-sheets', 'scripts', 'sheets.js');
 
 async function testConnection() {
   const spreadsheetId = process.env.SPREADSHEET_ID;
